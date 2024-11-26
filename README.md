@@ -5,6 +5,8 @@
 
 ## 備註
 - 僅為此包做適配 （其他包刷了也沒意義）
+- 硬體檢測軟件如果還是寫SM8250，清數App據再開啟即可
+![Screenshot_2024-11-26-20-10-35-612_flar2 devcheck](https://github.com/user-attachments/assets/d0ddc2e2-4ad8-4ef4-abc2-bde115508532)
 
 ## Disclaimer
 * I'm not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed (like it did for me...).
