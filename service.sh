@@ -1,0 +1,1 @@
+echo "1" > "/sys/touchpanel/keyboard"
