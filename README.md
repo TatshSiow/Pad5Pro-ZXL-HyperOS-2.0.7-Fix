@@ -7,7 +7,10 @@
 - 鍵盤是默認啟用，所以不想用鍵盤的話就打開側滑欄呼出On Screen鍵盤
 - 僅為此包做適配 （其他包刷了也沒意義）
 - 硬體檢測軟件如果還是寫SM8250，清數App據再開啟即可
-![Screenshot_2024-11-26-20-10-35-612_flar2 devcheck](https://github.com/user-attachments/assets/d0ddc2e2-4ad8-4ef4-abc2-bde115508532)
+
+## LSPOSED 已安裝但未彈出視窗/通知
+1. 打開Terminal軟件或在電腦的Command Prompt中輸入`adb shell`
+2. 輸入指令 `su -c am start-activity -a android.intent.action.MAIN -p com.android.shell -n com.android.shell/.BugreportWarningActivity -c org.lsposed.manager.LAUNCH_MANAGER`
 
 ## Disclaimer
 * I'm not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed (like it did for me...).
